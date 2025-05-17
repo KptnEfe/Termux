@@ -1,0 +1,44 @@
+(translated)
+
+# Termux
+Ready files to install the termux emulator.
+
+# video tutorial: https://www.youtube.com/watch?v=UgRds3iP0BU&t=64s (belongs to Mustafa Şeper!)
+
+# You can get the Termux application: (I can't share it in my git hub repository because its size is over 25MB!)
+termux:https://f-droid.org/repo/com.termux_118.apk termuxX11:https://raw.githubusercontent.com/olegos2/termux-box/main/components/termux-x11-arm64-v8a-debug.apk
+(applications are installed in apk type, giving apk installation permission is a risky process! I (KptnEfe) am not responsible for the risks!)
+(termux X11: acts as a monitor, the pc interface opens there, Termux: acts as a code line for emulator and system management.)
+
+# A--Installation of applications.
+
+Get the termux applications while starting 1A.
+2A Install applications. (applications are installed in apk type, giving apk installation permission is a risky process! I (KptnEfe) am not responsible for the risks!)
+3A Paste this code (termux): curl -s -o x https://raw.githubusercontent.com/olegos2/termux-box/main/install && chmod +x x && ./x
+
+# B--Install the operating system.
+(via termux)
+1B Select a Linux distribution.
+2B Paste your distribution download code. (termux) (Debian installation in section D)
+3B Confirm by pressing enter.
+4B Choose a username and type (eg: Efe)
+5B Choose 1 yes 2 yes with the keyboard on the interface that looks like the old laptop bios
+6B Wait for the download.
+
+# C--Start_the_emulator
+
+1C Open termux X11 in the background
+2C Enter the following command: /start
+the emulator should have started (ON X11)
+
+# D-- Let's install Debian (Termux_XFCE belongs)
+1D Paste the following code on termux: curl -sL https://raw.githubusercontent.com/phoenixbyrd/Termux_XFCE/main/install_xfce_native.sh -o install.sh && bash install.sh
+3B (Confirm by pressing enter.) Continue from step B to step B.
+
+# Extra--problems
+termux emulator may cause problems on systems after android 10! you can search for the solution (;
+Solution E-1 (for android 14 and later)
+
+E-1-1 Open developer options.
+
+E-1-2 Open "Disable subprocess restrictions" option.
