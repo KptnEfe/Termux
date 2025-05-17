@@ -1,4 +1,3 @@
-  # Türkçe
 
 # İçerik
  bu içerikte size termux ve termux X11 indirmeleri ve kurulum rehberi veriyorum.
