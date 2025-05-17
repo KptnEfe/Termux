@@ -1,0 +1,44 @@
+# Termux 
+termux emülatörünü kurmak için hazır dosyalar.  
+
+# videolu anlatım: https://www.youtube.com/watch?v=UgRds3iP0BU&t=64s (Mustafa Şeper e aittir!) 
+
+# Termux uygulamasını edinebilirsiniz:(boyutları 25MB geçtinden git hub depomda paylaşamıyorum!) 
+termux:https://f-droid.org/repo/com.termux_118.apk  termuxX11:https://raw.githubusercontent.com/olegos2/termux-box/main/components/termux-x11-arm64-v8a-debug.apk
+(uygulamalar apk türünde kurulur,apk kurma izni verme riskli bir işlemdir! risklerden ben (KptnEfe) sorumlu değilim!) 
+(termux X11: monitör görevi görür pc arayüzü orda açılır Termux: emülatör ve sistem yönetimi için kod satırı görevi görür.) 
+
+# A--Uygulamaların kurulumu. 
+
+1A başlarke termux uygulamalarını edinin.  
+2A uygulamaları kurun. (uygulamalar apk türünde kurulur,apk kurma izni verme riskli bir işlemdir! risklerden ben (KptnEfe) sorumlu değilim!) 
+3A bu kodu (termux) yapıştırın: curl -s -o x https://raw.githubusercontent.com/olegos2/termux-box/main/install && chmod +x x && ./x 
+
+
+# B--İşletim sistemini kurun. 
+     (termux üzerinden) 
+1B Bir Linux dağıtımı seçin. 
+2B Dağıtım indirme kodunuzu yapıştırın. (termux) (Debian kurulumu D kısmında) 
+3B enter tuşuna basarak onaylayın. 
+4B bir kullanıcı adı seçip yazın (örn: Efe) 
+5B çıkan eski lattop bios"una benzeyen ara yüzde klavye ile 1 yes 2 yes seçin 
+6B indirmeyi bekleyin.
+
+# C--Emulatörü_başlatın 
+
+ 1C termux X11 i arka planda açın 
+ 2C Şu Komudu Girin: /start 
+    emülatör başlamış olmalıdır (X11 ÜZERİNDE) 
+
+# D-- Debian kuralım (Termux_XFCE aittir) 
+ 1D termux üzerinde şu kodu yapıştırın: curl -sL https://raw.githubusercontent.com/phoenixbyrd/Termux_XFCE/main/install_xfce_native.sh -o install.sh && bash install.sh 
+    3B (enter tuşuna basarak onaylayın.) adımından B adımlarına devam edin.   
+
+
+# Extra--sorunlar 
+ termux emulatör android 10 sonrası sistemlerde sorun verebilir! çözümü arayabilirsin (; 
+  E-1 Çözümü (android 14 ve sonrası için) 
+  E-1-1 ğeliştirici seçeneklerini açın. 
+  E-1-2 "Alt işlem kısıtlamalarını devre dışı bırak" seçeneğini açın. 
+  
+ 
