@@ -6,7 +6,7 @@
 in this content I give you termux and termux X11 downloads and installation guide.
 
 
-# Termux Dowland
+# Termux/ "KptnEfe/Termux"  Dowland
 
 ```bash
 https://drive.google.com/drive/folders/1ki7TvI79aZmkxc7cGnj57A9oyagu5IMX?usp=drive_link
